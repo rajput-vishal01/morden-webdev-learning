@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="svg">
+        <svg
+          width="100vw"
+          height="250"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 500 250"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M 10 100 Q 250 100 490 100"
+            stroke="white"
+            fill="transparent"
+          />
+        </svg>
+      </div>
+
+      <div class="info-box">
+        <p>Hover near the curve to see the dynamic effect in action.</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
