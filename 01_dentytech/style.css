@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: hidden;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+#nav1 h3 {
+  font-size: 16px;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+#nav1 i {
+  font-size: 16px;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+#nav2 h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+}
+
+#nav3 button {
+  padding: 7px 12px;
+  border: 1.5px solid black;
+
+  border-radius: 50px;
+  background-color: #fff;
+}
+
+#nav3 #btn {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+}
+
+.container > h1 {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-size: 200px;
+  font-weight: 500;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  object-position: top;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.container > #img1 {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+.container > #img2 {
+  transform: translate(-50%, -50%) rotate(-20deg);
+}
+.container > #img3 {
+  transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btm-left {
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+.btm-right {
+  position: absolute;
+  bottom: 5%;
+  left: 90%;
+}
+
+.arrow {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  bottom: -12%;
+  left: 45%;
+}
